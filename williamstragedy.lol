@@ -7,8 +7,8 @@ VISIBLE "CAN U BALANCE UR EPIC MEAL PLAN, AVOID TEH DREADED 8AM CLASS, & BECOME 
 VISIBLE ""
 
 BTW Real campus locations:
-BTW Dining Halls: Cole Dining Hall, Thompson Dining Hall, & Ricketts Cafe
-BTW Dorms: Williston House & Harkness House
+BTW Dining Halls: Paresky Dining Hall, Driscoll Dining Hall, & SNAR Cafe
+BTW Dorms: Mission House & FroshQuad House
 BTW CS Professors: Professor Jeannine Wood, Professor Mark Harrison, Professor William McCormick, Professor Daniel Frazier, AND Professor Aaron Levine
 
 BTW Initialize variables
@@ -23,22 +23,22 @@ IM IN YR game
     BOTH SAEM gameOver AN FAIL, O RLY?
         YA RLY
             VISIBLE "STANDIN AT TEH CHAPIN STEPS, PURPLE MOUNTAINS MAJESTY ALL AROUND! WHERE 2?"
-            VISIBLE "1: SPRINT 2 COLE B4 TEH GOOD FOOD IZ GONE!"
-            VISIBLE "2: CHILL AT WILLISTON & MAYBE DO SUM HOMEWORK (LOL)"
+            VISIBLE "1: SPRINT 2 PARESKY B4 TEH GOOD FOOD IZ GONE!"
+            VISIBLE "2: CHILL AT Mission & MAYBE DO SUM HOMEWORK (LOL)"
             VISIBLE "3: BRAVE TEH CS LECTURE & HOPE 4 FREE PIZZA"
             VISIBLE "WHICH EPIC CHOICE? (TYPE 1, 2 OR 3):"
             GIMMEH choice
             
             BOTH SAEM choice AN "1", O RLY?
                 YA RLY
-                    VISIBLE "OMG! COLE'S SERVIN THEIR LEGENDARY MAC & CHEESE 2DAY! TEH LINE IZ EPIC!"
+                    VISIBLE "OMG! Paresky'S SERVIN THEIR LEGENDARY MAC & CHEESE 2DAY! TEH LINE IZ EPIC!"
                     VISIBLE "1: WAIT IN LINE LIKE A CHAMPION"
                     VISIBLE "2: SWEET TALK TEH STAFF 4 INSIDER FOOD INTEL"
                     GIMMEH choice
                     
                     BOTH SAEM choice AN "1", O RLY?
                         YA RLY
-                            VISIBLE "VICTORY! U SCORED TEH LAST SERVING OF MAC & CHEESE! UR OFFICIALLY A COLE LEGEND!"
+                            VISIBLE "VICTORY! U SCORED TEH LAST SERVING OF MAC & CHEESE! UR OFFICIALLY A Paresky LEGEND!"
                             hasFood R WIN
                         NO WAI
                             VISIBLE "STAFF WHISPERS ABOUT A SECRET STASH OF PURPLE COW ICE CREAM IN TEH BACK!"
@@ -56,15 +56,15 @@ IM IN YR game
                         NO WAI
                             VISIBLE "NO MAP? GOOD LUCK FINDIN TEH BASEMENT VENDING MACHINES!"
                     OIC
-                    VISIBLE "BUT PLOT TWIST - U GET LOST IN TEH ENDLESS COLE CORRIDORS ANYWAY!"
-                    endingMessage R "U GOT TEH 'FOREVER LOST IN COLE' ENDING! NEXT TIME GRAB DAT MAP, N00B!"
+                    VISIBLE "BUT PLOT TWIST - U GET LOST IN TEH ENDLESS Paresky CORRIDORS ANYWAY!"
+                    endingMessage R "U GOT TEH 'FOREVER LOST IN Paresky' ENDING! NEXT TIME GRAB DAT MAP, N00B!"
                     gameOver R WIN
                 NO WAI
             OIC
             
             BOTH SAEM choice AN "2", O RLY?
                 YA RLY
-                    VISIBLE "WILLISTON HOUSE BE WILDIN! UR ROOMIE STARTED AN IMPROMPTU KARAOKE NIGHT!"
+                    VISIBLE "Mission HOUSE BE WILDIN! UR ROOMIE STARTED AN IMPROMPTU KARAOKE NIGHT!"
                     VISIBLE "1: UNLEASH UR INNER PURPLE COW & SING UR HEART OUT"
                     VISIBLE "2: ATTEMPT 2 STUDY WHILE PPL BELT 'MOUNTAINS OF WILLIAMS'"
                     GIMMEH choice
@@ -95,7 +95,7 @@ IM IN YR game
                             VISIBLE "TEH GROUP SHARES THEIR DEBUGGING SECRETS & ENERGY DRINK STASH!"
                             BOTH SAEM hasFood AN WIN, O RLY?
                                 YA RLY
-                                    VISIBLE "FUELED BY COLE'S MAC & CHEESE, U HELP SOLVE A LEGENDARY BUG!"
+                                    VISIBLE "FUELED BY Paresky'S MAC & CHEESE, U HELP SOLVE A LEGENDARY BUG!"
                                     VISIBLE "TEH PROFESSORS R SHOOK! THEY OFFER U AN INTERNSHIP ON TEH SPOT!"
                                     VISIBLE "UR CODE WILL BE FEATURED IN TEH NEXT CS TEXTBOOK!"
                                     endingMessage R "U GOT TEH 'DEBUG MASTER' ENDING! STACKOVERFLOW FEARS U!"
