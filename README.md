@@ -2,6 +2,8 @@
 
 Welcome to the wacky world of LOLCODE, where the syntax is as quirky as your college life! This text adventure game lets you live out your student experience at Williams College with a twist of humor and a dash of nostalgia.
 
+[![Watch the video](https://img.youtube.com/vi/X2o-lGvHY98/maxresdefault.jpg)](https://www.youtube.com/watch?v=X2o-lGvHY98)
+
 ## How to Play 🎯
 
 <!-- Include link to the game -->
