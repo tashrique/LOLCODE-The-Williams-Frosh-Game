@@ -1,4 +1,4 @@
-# Williams College 💜🐮 Adventure in LOLCODE 🎮
+# The Williams FROSH Game 💜🐮 LOLCODE 🎮
 
 Welcome to the wacky world of LOLCODE, where the syntax is as quirky as your college life! This text adventure game lets you live out your student experience at Williams College with a twist of humor and a dash of nostalgia.
 
